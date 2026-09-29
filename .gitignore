@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+.DS_Store
+
+
+# CICIDS2017 dataset
+dataset/CIC-IDS2017/
+
+

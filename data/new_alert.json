@@ -1,0 +1,11 @@
+{
+  "alert_id": "NEW-POWER-001",
+  "title": "Suspicious PowerShell execution",
+  "user": "new.user",
+  "host": "FIN-PC-099",
+  "severity": "HIGH",
+  "event": "Encoded PowerShell command executed and contacted an unexpected external destination",
+  "command": "powershell.exe -EncodedCommand <synthetic-demo-value>",
+  "destination_ip": "185.20.20.20",
+  "mitre_technique": "T1059.001"
+}

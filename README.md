@@ -10,7 +10,7 @@ Persistent-memory AI SOC investigation agent.
 4. Optionally use Hindsight `reflect` to generate a context-aware response.
 5. Retain the new investigation outcome so future alerts can use it.
 
-This is intentionally the first vertical slice of MemorySOC. The full UI, PostgreSQL application database, IOC tools, MITRE mapping, and production deployment come later.
+This project is a proof of concept for a persistent-memory AI SOC investigation workflow. The repository includes the MemorySOC interface, security-data investigation workflow, Hindsight memory integration, and demonstration scenarios. Additional production capabilities such as expanded IOC enrichment, MITRE ATT&CK integration, and production deployment can be added as the project evolves.
 
 ## Current architecture
 

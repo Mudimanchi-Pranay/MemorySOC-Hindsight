@@ -161,3 +161,43 @@ After this POC works end-to-end, add:
 4. Next.js SOC dashboard.
 5. Memory ON/OFF demo comparison.
 6. Final 3-minute demo flow.
+
+
+## 📸 Project Screenshots
+
+### 1. MemorySOC Dashboard
+Main MemorySOC interface showing the organizational-memory investigation workflow.
+
+![MemorySOC Dashboard](docs/screenshots/01-overview-dashboard.png)
+
+### 2. Live CICIDS2017 Dataset Ingestion
+Upload real CICIDS2017 telemetry and convert a dataset row into a fresh security alert.
+
+![Live Dataset Ingestion](docs/screenshots/02-live-dataset-ingestion.png)
+
+### 3. Active Investigation
+MemorySOC processes the incoming alert through the investigation pipeline.
+
+![Active Investigation](docs/screenshots/03-active-investigation.png)
+
+### 4. Memory-Grounded Verdict
+The system generates an explainable SOC verdict using current evidence and recalled organizational memory.
+
+![Memory-Grounded Verdict](docs/screenshots/04-memory-grounded-verdict.png)
+
+### 5. Investigation Trace
+Shows the investigation flow:
+
+**Alert Ingest → IOC Enrichment → Memory Recall → Context Build → SOC Verdict**
+
+![Investigation Trace](docs/screenshots/05-investigation-trace.png)
+
+### 6. Memory Assessment
+Shows historical incident matching and how previous analyst decisions contribute to the investigation.
+
+![Memory Assessment](docs/screenshots/06-memory-assessment.png)
+
+### 7. Attack Scenarios
+Original attack-simulation scenarios available in MemorySOC.
+
+![Attack Scenarios](docs/screenshots/07-attack-scenarios.png)

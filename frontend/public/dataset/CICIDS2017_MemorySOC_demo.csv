@@ -1,0 +1,21 @@
+Destination Port,Flow Duration,Total Fwd Packets,Total Backward Packets,Total Length of Fwd Packets,Total Length of Bwd Packets,Fwd Packet Length Max,Fwd Packet Length Min,Fwd Packet Length Mean,Fwd Packet Length Std,Bwd Packet Length Max,Bwd Packet Length Min,Bwd Packet Length Mean,Bwd Packet Length Std,Flow Bytes/s,Flow Packets/s,Flow IAT Mean,Flow IAT Std,Flow IAT Max,Flow IAT Min,Label
+80,12034,8,6,512,384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,BENIGN
+443,54321,42,38,4620,5210,0,0,0,0,0,0,0,0,0,0,0,0,0,0,BENIGN
+21,8921,74,5,9120,420,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FTP-Patator
+21,12540,91,7,11820,560,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FTP-Patator
+22,7402,63,4,7860,312,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSH-Patator
+22,9310,71,5,8340,380,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSH-Patator
+80,1843,115,2,145600,180,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DoS Hulk
+80,2210,134,2,168420,210,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DoS Hulk
+443,3122,89,3,102340,290,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DoS GoldenEye
+80,4055,102,3,129880,315,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DoS GoldenEye
+80,6230,245,4,312500,420,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DoS Slowloris
+80,7110,198,4,251300,390,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DoS SlowHTTPTest
+80,15120,312,8,421200,760,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Web Attack – Brute Force
+80,18220,356,9,488600,820,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Web Attack – XSS
+80,20440,402,10,521300,910,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Web Attack – Sql Injection
+53,931,18,17,980,1010,0,0,0,0,0,0,0,0,0,0,0,0,0,0,BENIGN
+4444,8700,52,12,6320,1740,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bot
+8080,5320,77,6,9150,920,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bot
+3389,2630,29,11,3020,1440,0,0,0,0,0,0,0,0,0,0,0,0,0,0,PortScan
+23,4810,58,3,7020,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Telnet-BruteForce

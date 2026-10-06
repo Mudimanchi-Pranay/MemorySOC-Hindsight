@@ -412,6 +412,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://memorysoc-i5h6jvj9q-pranay-3df5.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],

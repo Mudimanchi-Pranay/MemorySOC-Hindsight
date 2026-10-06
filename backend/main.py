@@ -2,6 +2,7 @@ import os
 import uuid
 from pathlib import Path
 from typing import Any
+from database import init_database
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
@@ -400,6 +401,7 @@ app = FastAPI(
     description="Persistent-memory SOC investigation proof of concept.",
 )
 
+init_database()
 
 # ============================================================
 # CORS

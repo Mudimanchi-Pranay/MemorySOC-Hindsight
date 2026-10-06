@@ -26,6 +26,8 @@ HINDSIGHT_API_URL = os.getenv(
     "http://localhost:8888",
 )
 
+HINDSIGHT_API_KEY = os.getenv("HINDSIGHT_API_KEY")
+
 BANK_ID = os.getenv(
     "HINDSIGHT_BANK_ID",
     "memorysoc-soc",
@@ -379,7 +381,8 @@ ATTACK_SCENARIOS = {
 # ============================================================
 
 hindsight_client = Hindsight(
-    base_url=HINDSIGHT_API_URL
+    base_url=HINDSIGHT_API_URL,
+    api_key=HINDSIGHT_API_KEY
 )
 
 groq_client = Groq(
